@@ -3,16 +3,19 @@
 ### MINIMIZATION AND IMPLEMENTATION OF BOOLEAN FUNCTION
 ## Aim
 To minimize and implement a Boolean function using logic gates and verify the functionality using Synopsys VCS and DVE.
+
 ## Software Required
 •	Synopsys VCS
 •	Synopsys DVE
 •	Linux Terminal
 •	Verilog HDL
+
 ## Boolean Function
 Consider the Boolean function:
 F(A,B,C,D)=Σm(0,2,5,7,8,10,13,15)
 The minimized Boolean expression is: F=B'D'+BD
 The function is implemented using Verilog HDL.
+
 ## Files Used
 File	Description
 exp1_boolean_min.v	Verilog design file
@@ -76,34 +79,17 @@ o	F
 5.	Verify that F = 1 whenever B and D are equal.
 6.	Verify that F = 0 whenever B and D are different.
 The waveform should agree with the truth table.
- 
+<img width="436" height="276" alt="WhatsApp Image 2026-11-25 at 09 58 45" src="https://github.com/user-attachments/assets/2afb26dd-4c2d-4d10-8a85-b5f79c8f4bbc" />
+
 ### Expected Result
 The Boolean function
 F(A,B,C,D)=Σm(0,2,5,7,8,10,13,15), which simplifies to F=B'D'+BD.
 was minimized to F=B'D'+BD.
 and successfully implemented using Verilog HDL.
-
-## OUTPUT
-
-
-
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis.
-7. Viva-Voce Questions
-1.	What is Boolean function minimization?
-2.	What is a minterm?
-3.	What is a Karnaugh map?
-4.	Why is Boolean minimization required?
-5.	What are universal gates?
-6.	What is the difference between SOP and POS?
-7.	What is the purpose of a Verilog testbench?
-8.	Why is a VCD file generated?
-9.	What is the purpose of ./simv?
-10.	What is the purpose of DVE?
-11.	What is the difference between simulation and synthesis?
-12.	Why are A and C absent from the minimized expression?
-13.	What is the purpose of $dumpfile?
-14.	What is the purpose of $dumpvars?
+## Output 
+<img width="540" height="172" alt="WhatsApp Image 2026-11-25 at 09 58 46" src="https://github.com/user-attachments/assets/bf2f119d-60c3-41fb-8f2c-dd9e83750839" />
 
-Result
+## Result
 Thus, the Boolean function was minimized, implemented using Verilog HDL, successfully simulated using Synopsys VCS, and verified using Synopsys DVE.
 
